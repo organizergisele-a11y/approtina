@@ -1,4 +1,5 @@
 # App estático: não há etapa de build; o Netlify publica a pasta dist como está.
+# O comando explícito substitui o "npm run build" configurado na interface (não há package.json).
 [build]
   publish = "dist"
-  command = ""
+  command = "echo 'Sem etapa de build: publicando dist/'"
