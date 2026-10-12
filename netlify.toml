@@ -1,4 +1,5 @@
-# App estático: não há etapa de build; o Netlify publica a pasta dist como está.
+# App estático: não há etapa de build. O comando abaixo não faz nada e
+# substitui qualquer "npm run build" configurado no painel do Netlify.
 [build]
   publish = "dist"
-  command = ""
+  command = "echo 'ROTINA GERAL: app estático, sem build'"
