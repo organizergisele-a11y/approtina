@@ -1,0 +1,4 @@
+# App estático: não há etapa de build; o Netlify publica a pasta dist como está.
+[build]
+  publish = "dist"
+  command = ""
